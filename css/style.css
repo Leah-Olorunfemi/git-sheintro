@@ -1,12 +1,33 @@
 * {
   box-sizing: border-box;
 }
+body {
+  /* background-color: rgb(255, 160, 238); */
+}
+
+.container {
+  padding: 10px 20px;
+}
+form {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: 1px solid blueviolet;
+  border-radius: 10px;
+}
 
 h1 {
-  color: red;
+  /* color: red; */
   font-family: Arial, Helvetica, sans-serif;
 }
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14 px;
+}
+
+#login-btn {
+  padding: 7px 25px;
+  background-color: blueviolet;
+  color: white;
+  border: 1px solid blueviolet;
+  border-radius: 7px;
 }
